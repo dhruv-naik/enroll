@@ -265,7 +265,7 @@ nav ul li a {
 @media screen and (max-width: 850px) {
   .form {
     padding-left: 20vw;
-    width: 60%;
+    width: 85%;
     overflow: hidden;
   }
 }
