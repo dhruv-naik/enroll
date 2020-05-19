@@ -1,6 +1,27 @@
+@keyframes bgcolor {
+  0% {
+    background-color: #e8fffc;
+  }
+  30% {
+    background-color: lightcyan;
+  }
+  60% {
+    background-color: lightblue;
+  }
+  90% {
+    background-color: #e8fffc;
+  }
+  100% {
+    background-color: rgb(198, 253, 249);
+  }
+}
+
 body {
-  background-image: url("./background.jpg");
-  background-repeat: no-repeat;
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  background-position: center;
   background-size: cover;
   color: #777;
   margin: 0px 0px 0px 0px;
