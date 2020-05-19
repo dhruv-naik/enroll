@@ -290,6 +290,9 @@ nav ul li a {
     overflow: hidden;
   }
 }
+.spacer {
+  padding-top: 20vh;
+}
 /* footer */
 .footer {
   display: flex;
